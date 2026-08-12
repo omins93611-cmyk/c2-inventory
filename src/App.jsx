@@ -563,7 +563,7 @@ function App() {
               <div>
                 <h1>대시보드</h1>
                 <p>
-                  현재 재고 현황을 확인합니다.
+                  현재 재고 현황
                 </p>
               </div>
             </div>
@@ -621,13 +621,13 @@ function App() {
 
               <div className="section-title">
                 <h2>
-                  재고 부족 품목
+                  재고 부족 
                 </h2>
               </div>
 
               {lowStockItems.length === 0 ? (
                 <div className="empty small-empty">
-                  현재 부족한 재고가 없습니다.
+                  충분합니다.
                 </div>
               ) : (
                 <table>
@@ -687,7 +687,7 @@ function App() {
 
               {usageList.length === 0 ? (
                 <div className="empty small-empty">
-                  아직 사용 기록이 없습니다.
+                  빨리 사용하세요.
                 </div>
               ) : (
                 <table>
@@ -748,7 +748,7 @@ function App() {
                 <h1>재고조회</h1>
 
                 <p>
-                  현재 등록된 품목의 재고를 확인합니다.
+                 재고 현황
                 </p>
               </div>
 
@@ -759,7 +759,7 @@ function App() {
 
               <input
                 className="search-input"
-                placeholder="품목명 또는 품목코드로 검색..."
+                placeholder="품목명 검색..."
                 value={search}
                 onChange={(e) =>
                   setSearch(e.target.value)
@@ -769,7 +769,7 @@ function App() {
 
               {filteredItems.length === 0 ? (
                 <div className="empty">
-                  등록된 품목이 없습니다.
+                  등록해주세요
                 </div>
               ) : (
                 <table>
@@ -848,7 +848,7 @@ function App() {
                 <h1>품목관리</h1>
 
                 <p>
-                  품목과 현재 재고를 관리합니다.
+                  C2 109호 물품 관리
                 </p>
               </div>
 
@@ -872,7 +872,7 @@ function App() {
 
                   <br />
 
-                  품목 추가 버튼을 눌러 등록해주세요.
+                  품목 추가 버튼있어요. 
 
                 </div>
               ) : (
@@ -961,7 +961,7 @@ function App() {
                 <h1>사용현황</h1>
 
                 <p>
-                  어떤 물품을 언제 얼마나 사용했는지 기록합니다.
+                  사용 품목 및 사용량 기재해주세요.
                 </p>
               </div>
 
